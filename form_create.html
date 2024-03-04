@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_create</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="index.html" method="GET">
+            <h1>Личная информация:</h1>
+            <input type="text" name="name" placeholder="Введите ваше ФИО" required><br>
+            <input type="date" name="DateOfBirth" placeholder="Введите вашу дату рождения" required><br>
+            <input type="text" name="city" placeholder="Введите ваш родной Город" required><br>
+            <input type="tel" name="ph_number" placeholder="Введите ваш номер телефона" required><br>
+            <input type="email" name="email" placeholder="Введите вашу электронную почту" required><br>
+            <h1>Интересы:</h1>
+            <div id="createhtml">
+                <input type="text" name="interest" placeholder="Введите интерес" required>
+                <button type="button" onclick="addInput()">Добавить поле</button>
+                <button type="button" onclick="removeInput()">Удалить поле</button>
+            </div>
+            <h1>Языки:</h1>
+            <input type="text" name="lang" placeholder="Язык и уровень владения" required><br>
+            <h1>Описание:</h1>
+            <input type="text" name="descrip" placeholder="Описание" required><br>
+            <h1>Опыт работы:</h1>
+            <input type="text" name="name_work" placeholder="Название работы" required><br>
+            <input type="text" name="name_comp" placeholder="Место работы" required><br>
+            <input type="text" name="descr_work" placeholder="Описание работы" required><br>
+            <input type="text" name="date_work" placeholder="Период времени работы" required><br>
+            <h1>Образование:</h1>
+            <h2>Магистратура(если есть):</h2>
+            <input type="text" name="place_edu" placeholder="Место обучения"><br>
+            <input type="text" name="date_edu" placeholder="Период обучения"><br>
+            <input type="text" name="name_edu" placeholder="Название направления"><br>
+            <h2>Бакалавриат(если есть):</h2>
+            <input type="text" name="place_edu_" placeholder="Место обучения"><br>
+            <input type="text" name="date_edu_" placeholder="Период обучения"><br>
+            <input type="text" name="name_edu_" placeholder="Название направления"><br>
+            <h2>Курсы:</h2>
+            <input type="text" name="place_edu_с" placeholder="Место обучения"><br>
+            <input type="text" name="date_edu_с" placeholder="Период обучения"><br>
+            <input type="text" name="name_edu_с" placeholder="Название направления"><br>
+            <hr>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
