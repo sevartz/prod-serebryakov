@@ -1,0 +1,371 @@
+ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  font-size: 16px/121%;
+}
+
+.backgr {
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 60px 8px;
+}
+
+.div-2 {
+  width: 900px;
+  max-width: 100%;
+}
+
+.div-3 {
+  gap: 20px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 28%;
+  margin-left: 0px;
+}
+
+.sinee {
+  background-color: #6495ed;
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 13px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 16px 16px 33px;
+}
+
+.img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 200px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.line {
+  background-color: #fff;
+  margin-top: 18px;
+  height: 1px;
+}
+
+.FIO {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  align-self: start;
+  margin-top: 20px;
+}
+
+.DateOfBirth {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  margin-top: 12px;
+}
+
+.city {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  margin-top: 12px;
+}
+.number {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  margin-top: 12px;
+}
+
+.email {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  margin-top: 12px;
+}
+
+.interesi {
+  margin-top: 31px;
+  font: 700 16px/121% Arial, sans-serif;
+}
+
+.languages {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 20px;
+  white-space: nowrap;
+  padding: 4px 0;
+}
+
+.div-26 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+}
+
+.div-27 {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  line-height: 127%;
+}
+
+.div-28 {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  gap: 20px;
+  white-space: nowrap;
+  padding: 2px 0;
+}
+
+.div-29 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+}
+
+.div-30 {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  line-height: 127%;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 72%;
+  margin-left: 20px;
+}
+
+.column-backgr {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  color: #000;
+  width: 100%;
+  padding: 32px 16px 12px;
+}
+
+.name-title {
+  font: 700 28px/120% Arial, sans-serif;
+}
+
+.line-hr {
+  background-color: #d3d3d3;
+  margin-top: 30px;
+  height: 1px;
+}
+
+.description {
+  align-self: start;
+  margin-top: 13px;
+  font: 400 13px/127% Arial, sans-serif;
+}
+
+.exp {
+  margin-top: 46px;
+  font: 700 16px/121% Arial, sans-serif;
+}
+
+.container_work {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 1px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 0 14px;
+}
+
+.c_name_work {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0%;
+  flex-direction: column;
+}
+
+.name_work {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+}
+
+.descr {
+  font-family: Arial, sans-serif;
+  line-height: 127%;
+  margin-top: 17px;
+}
+
+.date-exp {
+  font-family: Arial, sans-serif;
+  line-height: 127%;
+  align-self: start;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.div-44 {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.place-of-work {
+  margin-top: 4px;
+  font: italic 400 14px/121% Arial, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.div-49 {
+  margin-top: 57px;
+  font: 700 16px/121% Arial, sans-serif;
+}
+
+.div-51 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 0 15px;
+}
+
+.div-52 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-53 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+}
+
+.div-54 {
+  margin-top: 5px;
+  font: italic 14px/121% Arial, sans-serif;
+}
+
+.div-55 {
+  font-family: Arial, sans-serif;
+  line-height: 127%;
+  margin-top: 18px;
+  white-space: nowrap;
+}
+
+.div-57 {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 2px 0 14px;
+}
+
+.div-58 {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0%;
+  flex-direction: column;
+}
+
+.div-59 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+}
+
+.div-60 {
+  margin-top: 5px;
+  white-space: nowrap;
+  font: italic 14px/121% Arial, sans-serif;
+}
+
+.div-61 {
+  font-family: Arial, sans-serif;
+  line-height: 127%;
+  margin-top: 16px;
+}
+
+.div-63 {
+  margin-top: 30px;
+  font: 700 16px/121% Arial, sans-serif;
+}
+
+.div-65 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  padding: 3px 0;
+}
+
+.div-66 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.div-68 {
+  font: italic 400 14px/121% Arial, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.div-69 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  margin: 12px 10px 0 0;
+  padding: 3px 0;
+}
+
+.div-70 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.div-72 {
+  margin-right: 10px;
+  font: italic 400 14px/121% Arial, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.div-73 {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  padding: 3px 0;
+}
+
+.div-74 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 123%;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.div-76 {
+  font: italic 400 14px/121% Arial, -apple-system, Roboto, Helvetica, sans-serif;
+}
