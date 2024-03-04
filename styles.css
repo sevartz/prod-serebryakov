@@ -1,0 +1,6 @@
+.container {
+  display: flexbox;
+  align-items: center;
+  border: 5px;
+  border-radius: 30px;
+}
